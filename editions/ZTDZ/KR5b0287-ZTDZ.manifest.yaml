@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0287/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0287/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 魁罡六鎖祕法
+  date: '2015-08-29 00:15:44.588375'
+  source:
+    repository: kanripo
+    path: KR5b0287
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0287_000-ZTDZ.yaml, hash: 'sha256:37a1e766e0e85fbafe3b280fa495c9fd85aa666f734dad0a230b094d96289d98'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0287_000-ZTDZ.markers.yaml, hash: 'sha256:811a7baedd97b573c639f4f0122900532c36f70d07aa6288ab0390d0b90c288b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0287_SJB_000-100753b
+    span:
+    - body
+    - 0
+    - 8583
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:62f261e7a6c408bc25af1d958be338827219983050e391fcb9b874cedab90509
